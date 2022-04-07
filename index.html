@@ -1,0 +1,64 @@
+---
+layout: standard
+title: "Metro Bootstrap CSS Library"
+slug: index
+---
+
+<div class="container">
+    <h2>Carousel 1</h2>
+    <div class="span5">
+        <div class="carousel" id="carousel1">
+            <div class="slide">
+                <img src="{{ site.baseurl }}/images/1.jpg" class="cover1" />
+            </div>
+
+            <div class="slide">
+                <img src="{{ site.baseurl }}/images/2.jpg" class="cover1" />
+            </div>
+
+            <div class="slide">
+                <img src="{{ site.baseurl }}/images/3.jpg" class="cover1" />
+            </div>
+
+            <a class="controls left"><i class="icon-arrow-left-3"></i></a>
+            <a class="controls right"><i class="icon-arrow-right-3"></i></a>
+        </div>
+        <script>
+            $(function () {
+                $("#carousel1").carousel({
+                    height: 200
+                });
+            })
+        </script>
+    </div>
+
+    <h2>Carousel 2</h2>
+    <div class="span5">
+        <div class="carousel" id="carousel2">
+            <div class="slide">
+                <img src="{{ site.baseurl }}/images/1.jpg" class="cover1" />
+            </div>
+
+            <div class="slide">
+                <img src="{{ site.baseurl }}/images/2.jpg" class="cover1" />
+            </div>
+
+            <div class="slide">
+                <img src="{{ site.baseurl }}/images/3.jpg" class="cover1" />
+            </div>
+        </div>
+        <script>
+            $(function () {
+                $("#carousel2").carousel({
+                    height: 200,
+                    effect: 'fade',
+                    markers: {
+                        show: true,
+                        type: 'square',
+                        position: 'bottom-right'
+                    }
+                });
+            })
+        </script>
+    </div>
+</div>
