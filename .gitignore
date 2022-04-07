@@ -2,3 +2,19 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+node_modules/
+validation-report.json
+validation-status.json
+js/tests/
+
+# Project
+/*.xml
+*.zip
+_gh_pages/
