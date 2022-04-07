@@ -20,7 +20,6 @@
 {% endif %}
 {% if page.slug != "template-news-portal" %}
     <link href="{{ site.baseurl }}/css/docs.min.css" rel="stylesheet">
-    <link href="{{ site.baseurl }}/js/prettify/prettify.css" rel="stylesheet">
 {% endif %}
 
     <!-- Load JavaScript Libraries -->
@@ -30,10 +29,6 @@
 {% if page.slug == "tiles" %}
     <script src="{{ site.baseurl }}/js/jquery/jquery.easing.1.3.min.js"></script>
 {% endif %}
-{% if page.slug == "dataTables" %}
-    <script src="{{ site.baseurl }}/js/jquery/jquery.dataTables.js"></script>
-{% endif %}
-    <script src="{{ site.baseurl }}/js/prettify/prettify.js"></script>
 {% if page.slug == "tiles" or page.slug == "images" or page.slug == "examples" or page.slug == "template-news-portal" %}
     <script src="{{ site.baseurl }}/js/holder/holder.js"></script>
 {% endif %}
